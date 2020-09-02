@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
 
 require('./app/routes/product.routes.js')(app);
 
-app.listen(process.env.PORT, () => {
+app.listen(3000, () => {
     console.log("Server is listening");
 });
 
